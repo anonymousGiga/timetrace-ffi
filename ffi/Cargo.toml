@@ -1,0 +1,13 @@
+[package]
+name = "timetrace-ffi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cxx = "1.0.78"
+autocxx = "0.26.0"
+
+[build-dependencies]
+autocxx-build = "0.26.0"
+miette = { version = "7.2.0", features = ["fancy"] }
+cc = "1.0.99"

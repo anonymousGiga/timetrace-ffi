@@ -1,0 +1,3 @@
+[submodule "ffi/PerfUtils"]
+	path = ffi/PerfUtils
+	url = https://github.com/PlatformLab/PerfUtils.git
